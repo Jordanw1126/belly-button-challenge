@@ -121,7 +121,7 @@ function init() {
     sampleNames.forEach(sample => {
       // Append a new option for each sample name
       dropdown.append("option")
-          .text(sample) // Set the displayed text for the option
+          .text(sample) 
           .property("value", sample); 
     });
 
